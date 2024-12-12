@@ -1,0 +1,25 @@
+header {
+    z-index: 1;
+}
+
+main {
+    z-index: 2;
+}
+
+section {
+    color: hsl(90, 93%, 62%);
+    border: 2px wheat solid;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 20px;
+}
+
+section h3 {
+    color: coral;
+}
+
+section h2 {
+    color: rgb(251, 255, 0);
+}

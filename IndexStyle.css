@@ -1,0 +1,140 @@
+.FirstTitle {
+    display: inline-block;
+    height: 50px;
+    position: relative;
+
+}
+
+#firstpot {
+
+    animation-name: pot1;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+#Hideout {
+    color: aqua;
+    margin-left: 5px;
+    padding: 4px;
+
+
+    animation-name: pot2;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pot1 {
+
+    0% {
+        transform: translateX(-200%);
+        opacity: 0%;
+        visibility: visible;
+    }
+
+    30% {
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+
+    60% {
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+
+    100% {
+        transform: translatey(2000%);
+        opacity: 0%;
+        visibility: visible;
+    }
+}
+
+@keyframes pot2 {
+    0% {
+        transform: translate(300%, 2000%);
+        opacity: 0%;
+        visibility: visible;
+        color: rgb(79, 255, 73);
+    }
+
+    30% {
+        transform: translateX(300%);
+        opacity: 100%;
+        color: rgb(79, 255, 73);
+    }
+
+    50% {
+        transform: translateX(0px);
+        color: aqua;
+        opacity: 100%;
+    }
+
+    60% {
+        transform: translateX(0px);
+
+        opacity: 100%;
+    }
+
+    100% {
+        transform: translatey(-500%);
+        opacity: 0%;
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width:700px) {
+    @keyframes pot2 {
+        0% {
+            transform: translatey(2000%);
+            opacity: 0%;
+            visibility: visible;
+            color: rgb(79, 255, 73);
+        }
+
+        30% {
+            transform: translatey(0px);
+            opacity: 100%;
+            color: rgb(79, 255, 73);
+        }
+
+        50% {
+            transform: translatey(0px);
+            color: aqua;
+            opacity: 100%;
+        }
+
+        60% {
+            transform: translatey(0px);
+
+            opacity: 100%;
+        }
+
+        100% {
+            transform: translatey(-500%);
+            opacity: 0%;
+            visibility: visible;
+        }
+    }
+}
+
+@keyframes nav {
+
+    0% {
+        opacity: 0%;
+    }
+
+    80% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+
+}
