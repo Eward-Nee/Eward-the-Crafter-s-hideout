@@ -37,7 +37,7 @@ aside a {
 
 }
 
-article img {
+#art img {
     width: 100%;
     margin-top: 10px;
     border-radius: 100%;
@@ -48,24 +48,27 @@ article img {
     main {
         flex-direction: column;
         flex-wrap: wrap;
-
-        article {
-            order: 1;
-            width: 100%;
-        }
-
-        aside {
-            order: 2;
-            width: 100%;
-        }
-
-        section {
-            order: 3;
-            width: 100%;
-        }
-
-        main>aside {
-            width: 100%;
-        }
     }
+
+    main>* {
+        margin: 10px 0px;
+    }
+
+
+    #art {
+        order: 1;
+        width: 100%;
+    }
+
+    main>aside {
+        order: 2;
+        width: 100%;
+    }
+
+
+    section {
+        order: 3;
+        width: 100%;
+    }
+
 }
