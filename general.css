@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 13, 19);
+}
+
+header {
+    color: tomato;
+    text-align: center;
+    font-size: 1.5em;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    height: 8%;
+    background-color: rgb(13, 13, 19);
+
+}
+
+main {
+    color: rgb(255, 164, 80);
+
+    animation-name: incoming;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    
+}
+
+footer {
+    color: wheat;
+    position: static;
+    clear: both;
+
+    animation-name: incoming;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+@keyframes incoming {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+#github {
+    color: aqua;
+}
+
+#navbar {
+
+    animation-name: nav;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    padding: 2px 5px;
+    height: 80px;
+
+
+}
+
+#navbar li {
+
+    color: brown;
+    font-size: 1.3em;
+    background-color: rgb(212, 212, 212);
+    display: inline-block;
+    border: 4px rgb(104, 187, 152) solid;
+    width: 24%;
+    cursor: pointer;
+    border-radius: 10px;
+
+
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+#navbar .active {
+    background-color: rgb(89, 87, 110);
+    color: aliceblue;
+}
+
+#navbar li:hover:not(.active) {
+    font-size: 1.35em;
+    background-color: #999797;
+}
+
+@media screen and (max-width:700px) {
+    #navbar li {
+        width: 100%;
+    }
+
+    header {
+        height: 20%;
+        display: flow-root;
+    }
+
+    #navbar {
+        height: 240px;
+    }
+}
