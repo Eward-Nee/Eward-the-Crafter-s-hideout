@@ -16,6 +16,7 @@ header {
     height: 8%;
     background-color: rgb(13, 13, 19);
 
+
 }
 
 main {
@@ -25,7 +26,7 @@ main {
     animation-duration: 2s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
-    
+
 }
 
 footer {
@@ -63,6 +64,7 @@ footer {
     height: 80px;
 
 
+    transform: translatex(-20px);
 }
 
 #navbar li {
@@ -105,5 +107,6 @@ footer {
 
     #navbar {
         height: 240px;
+        transform: translatex(-20px);
     }
 }
