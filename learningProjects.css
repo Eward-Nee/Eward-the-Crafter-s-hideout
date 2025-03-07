@@ -1,0 +1,44 @@
+main {
+    text-align: center;
+}
+
+#projects a {
+    display: inline-block;
+    font-size: 2em;
+    width: 30%;
+    border: 4px solid rgb(47, 255, 168);
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+    padding: 20px;
+    background-color: rgb(43, 43, 68);
+}
+
+#projects li {
+    list-style-type: none;
+    margin: 5px 0px;
+}
+
+#projects a:hover {
+    font-size: 2.1em;
+    color: rgb(221, 236, 0);
+    background-color: rgb(52, 52, 90);
+}
+
+header {
+    z-index: 10000;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+#projects {
+    padding: 0px;
+}
+
+@media screen and (max-width:700px) {
+    #projects a {
+        width: 90%;
+    }
+}
