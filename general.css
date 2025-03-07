@@ -63,8 +63,11 @@ footer {
     padding: 2px 5px;
     height: 80px;
 
+}
 
-    transform: translatex(-20px);
+
+#navbar ul {
+    padding: 0px;
 }
 
 #navbar li {
@@ -97,7 +100,7 @@ footer {
 
 @media screen and (max-width:700px) {
     #navbar li {
-        width: 100%;
+        width: 90%;
     }
 
     header {
@@ -107,6 +110,5 @@ footer {
 
     #navbar {
         height: 240px;
-        transform: translatex(-20px);
     }
 }
