@@ -98,6 +98,12 @@ footer {
     background-color: #999797;
 }
 
+@media screen and (max-width:1172px) {
+    #navbar {
+        font-size: 0.72em;
+    }
+}
+
 @media screen and (max-width:700px) {
     #navbar li {
         width: 90%;
@@ -110,5 +116,7 @@ footer {
 
     #navbar {
         height: 240px;
+        margin-bottom: 0;
+        font-size: 1em;
     }
 }
