@@ -42,7 +42,10 @@ ul {
 #learningProjects {
     background-color: rgb(29, 60, 78);
     line-height: 15px;
-    padding: 0 10px;
+}
+
+#learningProjects h3 {
+    width: 80%;
 }
 
 #learningProjects li {
